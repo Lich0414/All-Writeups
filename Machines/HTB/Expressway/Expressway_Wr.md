@@ -161,7 +161,7 @@ When I did this, I performed standard privilege escalation checks—checking sud
 
 Since I found myself stuck, I checked a writeup for a hint, and in it, I paid attention to the **sudo version**. It turns out there is a vulnerability, **CVE-2025-32463**, that specifically affects version 1.9.17 of sudo, and I found the following file to exploit this vulnerability.
 
-![[Pasted image 20260228173958.png]]
+![[Images/Pasted image 20260228173958.png]]
 
 I created the file using the `nano` tool to become root.
 
